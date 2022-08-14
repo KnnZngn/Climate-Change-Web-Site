@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <style>
+        h1{
+          text-align: center;  
+          color: aqua;
+        }
+
+        fieldset{
+            width: 500px;
+        }
+
+        body{
+            
+            background-image: url(assets/img/body_fon.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* bu 3 ozellik imag"in cozunurlgu buyuk gelirse
+             resmi ekrana sigdirir ve fix yapar 
+             img i url icine once folder ismini yazariz sirayla degisir*/
+     
+        }
+
+        form{
+            background-color:lightskyblue;
+            box-shadow: 3px 3px 3px navy;
+        }
+        legend{
+            color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Techpro Edu Student Registration Form</h1>
+    <center> 
+        <!--center tag formu center eder center tag basa koyar sonda kapariz -->
+    <fieldset>
+        <legend>Admission Form</legend>
+        <!-- legend tag bord aisim verir -->
+    <!-- fieldset tag formu bord icine koyar basa sona yazariz -->
+    <form> 
+        <table>
+            <tr>
+                <td><label> Name </label></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label> Email </label></td>
+                <td><input type="email"></td>
+            </tr>
+
+            <tr>
+                <td><label> Password </label></td>
+                <td><input type="password"></td>
+            </tr>
+            <!-- type yext yazarsak gorunur password yazarsak 
+            noktalar gorunur ..... -->
+
+            <tr>
+                <td> <label>Gender:</label>  </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female 
+                </td>  
+                <!-- input radio 1 tane yuvarlak circle verir -->
+                <!-- input checkbox  miltiple option verir -->
+                <!-- select +optin kutucuktan liste cikarir 
+                    drop down olur
+                didabled selected yazdgmz option gorunur ama user 
+                secemez -->
+                <!-- textarea adres gibi big box lar icin lullanilir -->
+            </tr>
+
+            <tr>
+                <td><label>Date Of Birth:</label></td>
+                <td><input type="date"></td>
+            </tr>
+
+            <tr>
+                <td><label> Select Languages: </label></td>
+                <td>
+                    <input type="checkbox">English
+                    <input type="checkbox">Spanish
+                    <input type="checkbox">Arabic
+                    <input type="checkbox">Turkish
+                </td>
+            </tr>
+           
+            <tr>
+                <td>
+                    <select>
+                        <option disabled selected>-------------</option>
+                        <option>America</option>
+                        <option>Canada</option>
+                        <option>Germany</option>
+                        <option>United Kingdom</option>
+                        <option>China</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Upload Picture</label></td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td><label>Phone #</label></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td><label>Address:</label></td>
+                <td>
+                    <textarea cols="30" rows="10" style=resize:none;></textarea>
+                    <!-- 30 columnluk 10 row sluk  ve resize dersek user buyutemez-->
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Save Data"></td>
+            </tr>
+
+
+
+        </table>
+    </form>
+    </fieldset>
+    </center>
+</body>
+</html>

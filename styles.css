@@ -1,0 +1,108 @@
+h2{
+    color:orange; 
+    font-size: 25px;
+    background-color:khaki; 
+    font-family:cursive;
+    text-align:left;
+     }
+
+     .my-tarz{
+        color:orange; 
+        font-size: 40px;
+        background-color:gold; 
+        font-family:cursive;
+        text-align:center; 
+
+     }
+
+     #my-unique-style{
+        color:coral;
+        background-color:darkgoldenrod;
+     }
+
+    
+   #img1{
+      width:25%;
+      border: 5px solid;
+      color: pink;
+      margin-bottom: 80px;
+      border-radius: 200px;
+      
+   }
+   .img2{
+      width: 30%;
+      border:5px dashed;
+      color:red;
+      padding: 50px;
+      border-radius: 100px;
+
+   }
+   .img3{
+      border: 5px solid;
+      border-color: red;
+      width: 20%;
+      padding: 5%;
+
+   }
+
+   .iframe {
+      width: 560px;
+      height: 315px;
+      
+   }
+   .thead{
+      background-color: darkgray;
+      color: black;
+   }
+
+   .tr{
+      background-color:deeppink;
+      color:greenyellow;
+
+   }
+
+
+  
+   table{
+      box-shadow: 4px 4px 3px green;
+      border: 1px groove red;
+      background-color: blanchedalmond
+      /*box-shadow golge verir kutuya list e  
+      1. horzntl 2. vertical 3/ radius 4. color
+      minis - koyarsak terse golge verir*/
+   }
+   th{
+      border: 1 px solid rebeccapurple;}
+   td{
+      border: 1 px solid blue;
+
+   }
+   /* align justify text icin tam sigdirir */
+  
+   #line_Justify{
+      text-align: justify;
+
+   }
+
+   #line_right{
+text-align: right;
+
+   }
+
+
+/* float img i saga sola none a yaslar */
+   #work1{
+float: left;
+border: 25px double fuchsia;
+   }
+   #work2{
+float: right;
+border: 25px groove greenyellow;
+/* double border img  i kere cerceveler */
+/* solid klasik cerceve */
+/* groove en meshuru oluk demk sanatli */
+   }
+
+   .body_fon{
+      background-image: url('assets\img\logo_tree.jpg');
+   }
